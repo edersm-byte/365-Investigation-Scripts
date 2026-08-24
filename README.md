@@ -1,4 +1,5 @@
 Scripts were created & tested on a Mac using pwsh.
+
 Connect-ExchangeOnline -UserPrincipalName xxxxx@cxxx.xxx
 
 
