@@ -1,0 +1,35 @@
+# Investigation output contains personal data (mailboxes, subjects, recipients, files). Never commit it.
+*-access-review-*.doc
+*-access-review-*.docx
+*-access-review-*.csv
+*-file-activity-*.csv
+*-access-review-*.pdf
+
+# Case folders and other exports people tend to keep next to the scripts
+cases/
+case-*/
+output/
+reports/
+exports/
+*.csv
+*.doc
+*.docx
+*.xlsx
+*.pdf
+*.pst
+*.eml
+*.msg
+*.zip
+
+# PowerShell transcripts and logs
+*.log
+PowerShell_transcript*.txt
+
+# Local credentials or settings
+*.pfx
+*.cer
+*.key
+.env
+*.local.ps1
+
+.DS_Store
